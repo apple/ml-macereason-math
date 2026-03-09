@@ -1,0 +1,190 @@
+{"original_idx": 18, "problem": "汤姆吃了一块巧克力蛋糕的$60\\%$。珍妮拿走了剩余部分的四分之一。那么这块蛋糕还有多少部分没有被吃掉？", "solution": "30\\%", "english_has_been_cleaned": false}
+{"original_idx": 1097, "problem": "有多少个12位正整数的所有数位都是1或2，并且至少有两个相邻的数位相同？", "solution": "4094", "english_has_been_cleaned": false}
+{"original_idx": 1105, "problem": "求下列方程的最大解：\\[\\lfloor x \\rfloor = 5 + 100 \\{ x \\},\\]其中 $\\{x\\} = x - \\lfloor x \\rfloor$。", "solution": "104.99", "english_has_been_cleaned": false}
+{"original_idx": 1131, "problem": "一个长方体的三个面的面积分别为60、75和100平方单位。求这个长方体的体积，以立方单位表示。将答案四舍五入到最接近的整数。", "solution": "671", "english_has_been_cleaned": false}
+{"original_idx": 1243, "problem": "已知点B是三个角$\\angle \\text{ABC}$、$\\angle \\text{ABD}$和$\\angle \\text{CBD}$的顶点，其中$\\angle \\text{CBD}$是直角，点B周围角度的总和为$180^\\circ$，且$\\angle \\text{ABD} = 30^\\circ$，求$\\angle \\text{ABC}$的度数。", "solution": "60^\\circ", "english_has_been_cleaned": false}
+{"original_idx": 1281, "problem": "有理化分母 \\(\\frac{1}{\\sqrt[3]{5} - \\sqrt[3]{3}}\\) 并将答案表示为 \\(\\frac{\\sqrt[3]{X} + \\sqrt[3]{Y} + \\sqrt[3]{Z}}{W}\\) 的形式，其中分数为最简分数。求 \\(X + Y + Z + W\\) 的值。", "solution": "51", "english_has_been_cleaned": false}
+{"original_idx": 1371, "problem": "在$(11.1)^3$和$(11.2)^3$之间有多少个整数？", "solution": "37", "english_has_been_cleaned": false}
+{"original_idx": 1449, "problem": "梅森素数定义为形如$2^n - 1$的素数，其中$n$本身必须是素数。例如，由于$2^3 - 1 = 7$，且3是素数，所以7是梅森素数。小于200的最大梅森素数是多少？", "solution": "127", "english_has_been_cleaned": false}
+{"original_idx": 1684, "problem": "求出表达式 $(8^4 \\cdot 4^{12}) / 2^8$ 的位数。", "solution": "9", "english_has_been_cleaned": false}
+{"original_idx": 1978, "problem": "若 $a$ 和 $b$ 为满足 $ab - 3a + 4b = 137$ 的正整数，则 $|a - b|$ 的最小可能值是多少？", "solution": "13", "english_has_been_cleaned": false}
+{"original_idx": 2201, "problem": "六个相同的矩形排列组成一个更大的矩形$PQRS$，$PQRS$的面积是$6000$平方单位。三行矩形构成$PQ$边，两列矩形构成$PS$边。如果每个小矩形的一边长为$x$，另一边长为$\\frac{2}{3}x$，那么长度$x$四舍五入到最接近的整数是多少？", "solution": "39", "english_has_been_cleaned": false}
+{"original_idx": 2525, "problem": "五位回文数的平均数是多少？（如果一个整数正读和反读都相同，那么它就是回文数。）", "solution": "55000", "english_has_been_cleaned": false}
+{"original_idx": 2695, "problem": "一位理财顾问正在分析高档珠宝的市场趋势。她发现一件特定的珠宝在五年前价值5,000美元。在前三年中，其价值每年增长8%。然而，由于市场变化，在接下来的两年中，其价值每年下降5%。这件珠宝在这五年后的当前价值是多少？", "solution": "5684.45", "english_has_been_cleaned": false}
+{"original_idx": 3284, "problem": "在一场有$60$道题的数学选择题考试中，学生得分规则为：答对一题得$5$分，不答题得$0$分，答错一题扣$2$分。已知小明在这次考试中的总分为$150$分，求他最多可能答对多少道题。", "solution": "38", "english_has_been_cleaned": false}
+{"original_idx": 4178, "problem": "假设 $m$ 和 $n$ 是正整数，使得 $108m = n^3$。求 $m + n$ 的最小可能值。", "solution": "8", "english_has_been_cleaned": false}
+{"original_idx": 4397, "problem": "已知函数 $f(x) = x^{2-m}$ 定义在区间 $[-3-m, m^2-m]$ 上，且为奇函数，求 $f(m)$ 的值。", "solution": "-1", "english_has_been_cleaned": false}
+{"original_idx": 4580, "problem": "计算 $\\cos 270^\\circ$。", "solution": "0", "english_has_been_cleaned": false}
+{"original_idx": 4715, "problem": "一个半径为6厘米的圆与一个矩形的三边相切。圆的面积是矩形面积的一半。矩形较长边的长度是多少厘米？请用$\\pi$表示你的答案。", "solution": "6\\pi", "english_has_been_cleaned": false}
+{"original_idx": 4726, "problem": "当表达式 $\\frac{180}{2^4 \\cdot 5^6 \\cdot 3^2}$ 转换为小数时，求小数点右边非零数字的个数。", "solution": "1", "english_has_been_cleaned": false}
+{"original_idx": 4875, "problem": "一个长方形的长比宽多25%。有一条平行于较短边的直线切割，将这个长方形分割成一个正方形和一个长方形条带。正方形的周长比条带的周长多百分之几？", "solution": "60\\%", "english_has_been_cleaned": false}
+{"original_idx": 4968, "problem": "$a$、$b$、$c$ 和 $d$ 的值是 6、7、8 和 9，但不一定按此顺序。四个乘积 $ab$、$bc$、$cd$ 和 $ad$ 的和的最大可能值是多少？", "solution": "225", "english_has_been_cleaned": false}
+{"original_idx": 5007, "problem": "计算\n$$\\sum_{k=1}^{500} k(\\lceil \\log_{\\sqrt{3}}{k}\\rceil- \\lfloor\\log_{\\sqrt{3}}{k} \\rfloor).$$", "solution": "124886", "english_has_been_cleaned": false}
+{"original_idx": 5262, "problem": "一个直角三角形的两条边长分别为4和5，求第三条边所有可能长度的乘积。将结果保留一位小数。", "solution": "19.2", "english_has_been_cleaned": false}
+{"original_idx": 5405, "problem": "两个十进制数348和27相乘，然后将乘积用八进制表示。这个八进制表示的个位数字是多少？", "solution": "4", "english_has_been_cleaned": false}
+{"original_idx": 5483, "problem": "求随机变量 $X$ 的期望值（数学期望），已知其概率密度函数为 $p(x)=0.2 e^{-0.2 x}$，其中 $x \\geq 0$。", "solution": "5", "english_has_been_cleaned": false}
+{"original_idx": 6024, "problem": "化简 $\\dfrac{18}{17}\\cdot\\dfrac{13}{24}\\cdot\\dfrac{68}{39}$。", "solution": "1", "english_has_been_cleaned": false}
+{"original_idx": 6169, "problem": "求最大的三位数，使得它比6的倍数多2，且比7的倍数多4。", "solution": "998", "english_has_been_cleaned": false}
+{"original_idx": 6432, "problem": "求 $10\\cot(\\cot^{-1}3+\\cot^{-1}7+\\cot^{-1}13+\\cot^{-1}21)$ 的值。", "solution": "15", "english_has_been_cleaned": false}
+{"original_idx": 6541, "problem": "一个半径为 \\( R \\) 的圆内切于等腰梯形。梯形的上底长度是其高的一半。求梯形的面积。", "solution": "5R^2", "english_has_been_cleaned": false}
+{"original_idx": 6571, "problem": "**新问题陈述**：三角形两边的长度分别为35个单位和43.5个单位。如果第三边的长度也是整数，那么该三角形周长的最少可能单位数是多少？", "solution": "87.5", "english_has_been_cleaned": false}
+{"original_idx": 6708, "problem": "三角形 \\(ABC\\) 的面积为 944。设 \\(D\\) 是 \\([AB]\\) 的中点，\\(E\\) 是 \\([BC]\\) 的中点，\\(F\\) 是 \\([AE]\\) 的中点。求三角形 \\(DEF\\) 的面积。", "solution": "118", "english_has_been_cleaned": false}
+{"original_idx": 7316, "problem": "现有15只狗，包括旺财和大黄。需要将它们分成三组，数量分别为6只、5只和4只。如果旺财必须在6只狗的组中，大黄必须在4只狗的组中，有多少种分组方法？", "solution": "72072", "english_has_been_cleaned": false}
+{"original_idx": 7389, "problem": "小明年龄的三倍加上小红的年龄等于小华年龄的两倍。小华年龄的立方的两倍等于小明年龄的立方的三倍加上小红年龄的立方。他们各自的年龄互质。他们年龄的平方和是", "solution": "42", "english_has_been_cleaned": false}
+{"original_idx": 7551, "problem": "求 $$f(A)=\\frac{(\\sin A)\\left(3 \\cos ^{2} A+\\cos ^{4} A+3 \\sin ^{2} A+\\left(\\sin ^{2} A\\right)\\left(\\cos ^{2} A\\right)\\right)}{(\\tan A)(\\sec A-(\\sin A)(\\tan A))}$$ 的值域，当 $A \\neq \\frac{n \\pi}{2}$ 时。", "solution": "(3,4)", "english_has_been_cleaned": false}
+{"original_idx": 7574, "problem": "求 $k$ 的最大值，使得 $3^{11}$ 可以表示为 $k$ 个连续正整数的和。", "solution": "486", "english_has_been_cleaned": false}
+{"original_idx": 7744, "problem": "某情报站有四种不同的密码$A$、$B$、$C$和$D$。每周使用其中一种密码，每周都从前一周未使用的三种密码中等概率随机选择一种。已知第一周使用密码$A$，求第七周也使用密码$A$的概率是多少？（用最简分数形式表示答案。）", "solution": "61/243", "english_has_been_cleaned": false}
+{"original_idx": 7776, "problem": "学校某办公室需要安排6个指定人员在第1天到第6天进行值班，已知甲和乙不能相邻，丙和丁也不能相邻，求共有多少种不同的安排方案。", "solution": "336", "english_has_been_cleaned": false}
+{"original_idx": 8049, "problem": "有六支足球队，任意两队之间最多进行一场比赛。如果每支球队都恰好进行2场比赛，那么这些比赛有多少种可能的安排方案？", "solution": "70", "english_has_been_cleaned": false}
+{"original_idx": 8099, "problem": "在一个三角形中，三条高线长度两两相加的比为5:7:8，求这个三角形的边长比是多少？", "solution": "10:15:6", "english_has_been_cleaned": false}
+{"original_idx": 8119, "problem": "已知 \\( f(x) = x^{5} + a_{1} x^{4} + a_{2} x^{3} + a_{3} x^{2} + a_{4} x + a_{5} \\)，且对于 \\( m = 1, 2, 3, 4 \\)，都有 \\( f(m) = 2017m \\)，求 \\( f(10) - f(-5) \\)。", "solution": "75615", "english_has_been_cleaned": false}
+{"original_idx": 8397, "problem": "求方程 \\(\\left\\lfloor \\frac{x}{10} \\right\\rfloor = \\left\\lfloor \\frac{x}{11} \\right\\rfloor + 1\\) 在自然数范围内解的个数。", "solution": "110", "english_has_been_cleaned": false}
+{"original_idx": 8413, "problem": "给定一个矩形草坪,尺寸为$120$英尺乘$200$英尺,割草机的割幅宽度为$32$英寸,每次割草之间有$6$英寸的重叠,行走速度为每小时$4000$英尺,计算小明割完整个草坪需要多长时间。", "solution": "2.8", "english_has_been_cleaned": false}
+{"original_idx": 9303, "problem": "给定函数 $f(x)=\\log _{a}\\left(\\sqrt {x^{2}+1}+x\\right)+\\dfrac{1}{a^{x}-1}+\\dfrac{3}{2}$,其中 $a > 0$ 且 $a \\neq 1$。若对于 $b > 0$ 且 $b \\neq 1$,有 $f\\left(\\log _{3}b\\right)=5$,求 $f\\left(\\log _{\\frac{1}{3}}b\\right)$ 的值。", "solution": "-3", "english_has_been_cleaned": false}
+{"original_idx": 9348, "problem": "设$m$是最小的整数，使得其立方根形如$n+s$，其中$n$是正整数，$s$是小于$1/2000$的正实数。求$n$。", "solution": "26", "english_has_been_cleaned": false}
+{"original_idx": 9386, "problem": "已知等比数列$\\{a_n\\}$满足$a_2a_5=2a_3$，且$a_4$，$\\frac{5}{4}$，$2a_7$构成等差数列，则$a_1a_2a_3…a_n$的最大值是______。", "solution": "1024", "english_has_been_cleaned": false}
+{"original_idx": 9430, "problem": "五名学生A、B、C、D、E排成一行参加文艺表演。若学生A不能站在两端，求学生C和D相邻时的不同排列数。", "solution": "24", "english_has_been_cleaned": false}
+{"original_idx": 9439, "problem": "已知抛物线 $C: y^2 = 8x$，焦点为 $F$，准线为 $l$。设 $P$ 为准线 $l$ 上一点，$Q$ 为直线 $PF$ 与抛物线 $C$ 的交点。若 $\\overrightarrow{FQ} = -4\\overrightarrow{FP}$，求 $|QF|$。", "solution": "20", "english_has_been_cleaned": false}
+{"original_idx": 9541, "problem": "已知 \\(\\triangle DEF\\)，其中 \\(DE=28\\)，\\(EF=30\\)，\\(FD=16\\)，求 \\(\\triangle DEF\\) 的面积。", "solution": "221.25", "english_has_been_cleaned": false}
+{"original_idx": 9624, "problem": "方程 $\\tan x = \\tan(\\tan x + x)$ 在区间 $0 \\leq x \\leq \\tan^{-1} 500$ 上有多少个解？", "solution": "160", "english_has_been_cleaned": false}
+{"original_idx": 9707, "problem": "彼佳认为当他的数字时钟显示的小时数是分钟数的六倍，或者分钟数是小时数的六倍时，这样的时刻就是他人生中的快乐时刻。彼佳在某个快乐时刻睡着了，并在另一个快乐时刻醒来，睡眠期间没有错过任何这样的时刻。彼佳的睡眠时间最多可能持续多少分钟（取整数）？", "solution": "361", "english_has_been_cleaned": false}
+{"original_idx": 9812, "problem": "一位企业家获得了一笔1200万匈牙利福林的贴现贷款，固定年利率为8%。如果他们每年可以偿还120万匈牙利福林，那么10年后的债务余额是多少？", "solution": "8523225", "english_has_been_cleaned": false}
+{"original_idx": 10312, "problem": "计算有多少个两位正整数能被它们的两个数字整除。例如，$36$ 就是这样的两位正整数之一，因为它能被 $3$ 和 $6$ 整除。", "solution": "14", "english_has_been_cleaned": true}
+{"original_idx": 10437, "problem": "正整数 $m$ 是完全数，当且仅当它的所有正因数（包括 $1$ 和 $m$）的和等于 $2m$。求所有使得 $n^n + 1$ 是完全数的正整数 $n$。", "solution": "n = 3", "english_has_been_cleaned": true}
+{"original_idx": 10624, "problem": "对于固定整数 $n\\geqslant2$，考虑数列 $a_k=\\text{lcm}(k,k+1,\\ldots,k+(n-1))$。找出所有使得数列 $a_k$ 从某个数开始递增的 $n$。", "solution": "n = 2", "english_has_been_cleaned": true}
+{"original_idx": 10650, "problem": "设 $a$，$b$，$c$ 为正整数，使得 $29a + 30b + 31c = 366$。求 $19a + 20b + 21c$。", "solution": "246", "english_has_been_cleaned": false}
+{"original_idx": 10665, "problem": "从一个 $2011\\times2011$ 的正方形中移除一个 $11\\times11$ 的正方形，使得剩余部分能够用多米诺骨牌（$1\\times 2$ 矩形）铺砌，共有多少种不同的移除方法？", "solution": "2,002,001", "english_has_been_cleaned": false}
+{"original_idx": 10690, "problem": "求 $ k $ 的最大值，使得对于正实数 $ a,b $ 和 $ c $，由不等式 $ kabc >a^3+b^3+c^3 $ 可以得出 $ a,b $ 和 $ c $ 是三角形的三边。", "solution": "k = 5", "english_has_been_cleaned": true}
+{"original_idx": 10845, "problem": "设$P$是三角形$ABC$内部的一点，满足\n\\[\\overrightarrow{PA} + 2 \\overrightarrow{PB} + 3 \\overrightarrow{PC} = \\mathbf{0}.\\]\n求三角形$ABC$的面积与三角形$APC$的面积的比值。", "solution": "3", "english_has_been_cleaned": false}
+{"original_idx": 11307, "problem": "蓝女士的工资每年增长12%，连续五年增长后，她的工资总共增加了百分之多少？", "solution": "76.23\\%", "english_has_been_cleaned": false}
+{"original_idx": 11349, "problem": "如果105名顾客总共购买了300罐汽水，且每名顾客至少购买了一罐汽水，求当天每名顾客购买汽水罐数的最大可能中位数。", "solution": "4", "english_has_been_cleaned": false}
+{"original_idx": 11527, "problem": "如果 $p$、$q$ 和 $r$ 是满足 $pq+r = qr+p = rp+q = 47$ 的正整数，求 $p+q+r$ 的值。", "solution": "48", "english_has_been_cleaned": false}
+{"original_idx": 11893, "problem": "函数 \\( g(x) \\) 满足\n\\[\ng(2^x) + xg(2^{-x}) + x = 1\n\\]\n对于所有实数 \\( x \\) 都成立。求 \\( g(2) \\)。", "solution": "-1", "english_has_been_cleaned": false}
+{"original_idx": 11920, "problem": "在10和90之间有多少个自然数与18互质？", "solution": "27", "english_has_been_cleaned": false}
+{"original_idx": 12913, "problem": "当 $\\frac{51}{777}$ 表示为小数时，小数点后第 $62$ 位数字是多少？", "solution": "6", "english_has_been_cleaned": false}
+{"original_idx": 13063, "problem": "将所有3的幂以及3的不同幂的任意有限和按递增顺序排列：\n$$\n1, 3, 4, 9, 10, 12, 13, \\cdots\n$$\n\n求该序列的第100项。", "solution": "981", "english_has_been_cleaned": false}
+{"original_idx": 13538, "problem": "求由曲面围成的区域 \\(\\Omega\\) 的体积\n\n\\[ x = 17 \\sqrt{2 y}, \\quad x = 2 \\sqrt{2 y}, \\quad z = \\frac{1}{2} - y, \\quad z = 0 \\]", "solution": "1", "english_has_been_cleaned": false}
+{"original_idx": 14142, "problem": "实数 \\( x \\) 和 \\( y \\) 满足 \\( \\tan x = x \\) 和 \\( \\tan y = y \\)，且 \\( |x| \\neq |y| \\)。求 \\(\\frac{\\sin (x+y)}{x+y} - \\frac{\\sin (x-y)}{x-y} \\) 的值。", "solution": "0", "english_has_been_cleaned": false}
+{"original_idx": 14278, "problem": "政治学专家李教授正在研究右翼民粹主义对边缘化社区的影响。她访问了3个不同的社区来收集数据。在第一个社区，她发现有120人受到影响，而在第二个社区，有85人因这些政治变化而面临挑战。在第三个社区，受影响的人数比第二个社区多50%。请问这三个社区总共有多少人受到影响？", "solution": "333", "english_has_been_cleaned": false}
+{"original_idx": 14282, "problem": "一名博士生正在分析不同领导者使用的政治沟通策略。她决定研究两位领导者,领导者A和领导者B,为期一个月。领导者A每周发表3次演讲,每次演讲平均包含2000个词。领导者B每周发表2次演讲,每次演讲平均包含2500个词。在月底时,该学生想知道领导者B比领导者A多说了多少个词。假设这个月恰好有4周。在这个月里,领导者B比领导者A多说了多少个词?", "solution": "-4000", "english_has_been_cleaned": false}
+{"original_idx": 14453, "problem": "假设 $\\gcd(n,5040)=120$。求满足此条件的四个最小正整数 $n$ 的和。", "solution": "3600", "english_has_been_cleaned": false}
+{"original_idx": 14598, "problem": "特拉维斯需要照看淘气的汤普森三胞胎。知道他们喜欢大数字,特拉维斯为他们设计了一个数数游戏。首先塔德说数字$1$,然后托德必须说接下来的两个数字($2$和$3$),接着塔克必须说接下来的三个数字($4$、$5$、$6$),然后塔德必须说接下来的四个数字($7$、$8$、$9$、$10$),这个过程按顺序在三个孩子之间轮换,每个孩子说的数字个数比前一个孩子多一个,直到达到数字$10,000$。塔德说的第$2019$个数字是什么?", "solution": "5979", "english_has_been_cleaned": false}
+{"original_idx": 14830, "problem": "黑板上写有2022和一个小于2022的正整数。每次操作选择黑板上的一个数，将其替换为两数的算术平均数（结果为整数）。若共进行10次此类操作，求最初较小的数。", "solution": "998", "english_has_been_cleaned": false}
+{"original_idx": 15171, "problem": "已知正实数 \\( a \\) 和 \\( b \\) 满足 \\( ab(a+b)=4 \\)，求 \\( 2a + b \\) 的最小值。", "solution": "2\\sqrt{3}", "english_has_been_cleaned": false}
+{"original_idx": 15390, "problem": "在一个6×5的网格中，从W到X有多少条必须经过点H的10步路径？假设W位于左上角，X位于右下角，H位于W右边3格、下方2格的位置。", "solution": "60", "english_has_been_cleaned": false}
+{"original_idx": 15840, "problem": "有3名女志愿者和2名男志愿者，共5名志愿者，需要分配到3个社区参加志愿服务。每个社区可以有1到2人。女志愿者A和B必须在同一个社区，男志愿者必须在不同的社区。不同分配方案的数量是______。", "solution": "12", "english_has_been_cleaned": false}
+{"original_idx": 15996, "problem": "假设 $A$ 和 $B$ 是 $d > 6$ 进制中的数字，使得 $\\overline{AB}_d + \\overline{AA}_d = 162_d$。求 $A_d - B_d$ 在 $d$ 进制下的值。", "solution": "3", "english_has_been_cleaned": false}
+{"original_idx": 16330, "problem": "计算最小的正整数 $a$ 使得 $$ \\sqrt{a +\\sqrt{a +...}} - \\frac{1}{a +\\frac{1}{a+...}}> 7 $$", "solution": "43", "english_has_been_cleaned": false}
+{"original_idx": 17014, "problem": "一本599页的书，每个页码都恰好印刷一次。从第1页到第599页，数字'5'比数字'9'多出现多少次？", "solution": "100", "english_has_been_cleaned": false}
+{"original_idx": 17514, "problem": "给定数列 \\(\\left(a_{n}\\right)_{n=1}^{\\infty}\\)，其中 \\(a_{1}=a_{2}=2\\)，且对于所有 \\(n=2,3,4, \\ldots\\)，有递推关系\n\\[ \\frac{2 a_{n-1} a_{n}}{a_{n-1} a_{n+1}-a_{n}^{2}}=n^{3}-n \\]\n求与 \\(\\sum_{k=2}^{2011} \\frac{a_{k+1}}{a_{k}}\\) 的值最接近的整数。", "solution": "3015", "english_has_been_cleaned": false}
+{"original_idx": 17909, "problem": "一个正十二边形内接于半径为1的圆，其顶点两两连线形成的弦中，有多少条弦的长度的平方是有理数？", "solution": "42", "english_has_been_cleaned": false}
+{"original_idx": 18531, "problem": "幼儿园里的一群幼儿总共有90颗牙齿。任意两个幼儿的牙齿总数都不超过9颗。这群幼儿的最少人数是多少？", "solution": "23", "english_has_been_cleaned": false}
+{"original_idx": 18680, "problem": "在美国，日期的写法是：月份数字，然后是日期数字，最后是年份。在欧洲，格式是日期数字，然后是月份数字，最后是年份。一年中有多少天的日期在不知道使用哪种格式的情况下无法明确解读？", "solution": "132", "english_has_been_cleaned": false}
+{"original_idx": 18697, "problem": "设 \\( p(x) = 2x^3 - 3x^2 + 1 \\)。在 \\( p(1), p(2), \\ldots, p(2016) \\) 这些数中，有多少个完全平方数？", "solution": "32", "english_has_been_cleaned": false}
+{"original_idx": 18779, "problem": "设 \\( a \\) 和 \\( b \\) 为实数，考虑函数 \\( f(x) = x^{3} + a x^{2} + b x \\)。如果存在三个实数 \\( x_{1}, x_{2}, x_{3} \\) 使得 \\( x_{1} + 1 \\leqslant x_{2} \\leqslant x_{3} - 1 \\)，且 \\( f(x_{1}) = f(x_{2}) = f(x_{3}) \\)，求 \\( |a| + 2|b| \\) 的最小值。", "solution": "\\sqrt{3}", "english_has_been_cleaned": false}
+{"original_idx": 18803, "problem": "三(1)班有21名学生，学号从1到21。将这些学生围成一个圆圈排列。记录每对相邻学生学号之间的差值，差值取正值，即用较大的学号减去较小的学号。这21个差值的最大可能总和是多少？", "solution": "220", "english_has_been_cleaned": false}
+{"original_idx": 18838, "problem": "求表达式\n\n$$\n\\frac{2}{|a-b|}+\\frac{2}{|b-c|}+\\frac{2}{|c-a|}+\\frac{5}{\\sqrt{ab+bc+ca}}\n$$\n\n在条件 \\(ab + bc + ca > 0\\)，\\(a + b + c = 1\\)，且 \\(a, b, c\\) 互不相等下的最小值。", "solution": "10\\sqrt{6}", "english_has_been_cleaned": false}
+{"original_idx": 19400, "problem": "已知数列$\\{a_n\\}$满足$a_n-(-1)^n a_{n-1}=n$（$n\\geqslant 2, n\\in \\mathbb{N}^*$），且$S_n$是数列$\\{a_n\\}$的前$n$项和，则$S_{40}=$_______。", "solution": "440", "english_has_been_cleaned": false}
+{"original_idx": 19449, "problem": "二次多项式 $P(x)$ 具有实系数，满足\n\\[P(x^3 + x) \\ge P(x^2 + 1)\\]对所有实数 $x$ 成立。求 $P(x)$ 的根的和。", "solution": "4", "english_has_been_cleaned": false}
+{"original_idx": 19535, "problem": "对于正整数 $n$，设 $s(n)$ 和 $c(n)$ 分别表示 $n$ 的因数中完全平方数和完全立方数的个数。如果正整数 $n$ 满足 $s(n)=c(n)>1$，则称 $n$ 为公平数。求小于 $100$ 的公平数的个数。", "solution": "7", "english_has_been_cleaned": false}
+{"original_idx": 19642, "problem": "方程 $ ax^3\\plus{}bx^2\\plus{}cx\\plus{}d\\equal{}0$ 有三个不同的解。下面的方程有多少个不同的解：\n $ 4(ax^3\\plus{}bx^2\\plus{}cx\\plus{}d)(3ax\\plus{}b)\\equal{}(3ax^2\\plus{}2bx\\plus{}c)^2?$", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 19709, "problem": "在菱形 $ABCD$ 中，点 $E$ 和 $F$ 分别在边 $BC$ 和 $CD$ 上，使得 $AB=AE=AF=EF$，且 $FC,DF,BE,EC>0$。求 $\\angle ABC$ 的度数。", "solution": "80^\\circ", "english_has_been_cleaned": false}
+{"original_idx": 19735, "problem": "求所有正整数对 $(x, y)$，使得 $\\frac{xy^3}{x+y}$ 是某个质数的立方。", "solution": "(2, 14)", "english_has_been_cleaned": false}
+{"original_idx": 20302, "problem": "求方程\n\\[\n(x^{1010} + 1)(x^{1008} + x^{1006} + x^{1004} + \\dots + x^2 + 1) = 1010x^{1009}.\n\\]\n的实数解的个数。", "solution": "1", "english_has_been_cleaned": false}
+{"original_idx": 21345, "problem": "托利亚将面值为1、2、3戈比的101枚硬币排成一行。结果发现，任意两枚1戈比硬币之间至少有一枚硬币，任意两枚2戈比硬币之间至少有两枚硬币，任意两枚3戈比硬币之间至少有三枚硬币。托利亚可能有多少枚3戈比硬币？", "solution": "26", "english_has_been_cleaned": false}
+{"original_idx": 21519, "problem": "有多少个有序四元组 \\((a, b, c, d)\\) 满足 \\(2 \\le a \\le b \\le c\\) 和 \\(1 \\le d \\le 418\\)，使得等式\n\\[\nbcd + abd + acd = abc + abcd\n\\]\n成立？", "solution": "420", "english_has_been_cleaned": false}
+{"original_idx": 21659, "problem": "给定函数 \\( f(x) = \\cos x + \\log_2 x \\)，对于 \\( x > 0 \\)，若正实数 \\( a \\) 满足 \\( f(a) = f(2a) \\)，则求 \\( f(2a) - f(4a) \\) 的值。", "solution": "-1", "english_has_been_cleaned": false}
+{"original_idx": 21712, "problem": "给定三角形 \\( \\triangle ABC \\)，其中 \\( AB < AC \\)，从 \\( A \\) 点作高 \\( AD \\)、角平分线 \\( AE \\) 和中线 \\( AF \\)，点 \\( D, E, F \\) 都在 \\(\\overline{BC}\\) 上。如果 \\( \\angle BAD = 2 \\angle DAE = 2 \\angle EAF = \\angle FAC \\)，那么 \\( \\angle ACB \\) 的所有可能值是多少？", "solution": "30", "english_has_been_cleaned": false}
+{"original_idx": 21776, "problem": "给定平行四边形 \\(A B C D\\)，其中 \\(\\angle B = 111^\\circ\\) 且 \\(B C = B D\\)。在线段 \\(B C\\) 上有一点 \\(H\\)，使得 \\(\\angle B H D = 90^\\circ\\)。点 \\(M\\) 是边 \\(A B\\) 的中点。求角 \\(A M H\\)。答案用度数表示。", "solution": "132", "english_has_been_cleaned": false}
+{"original_idx": 21868, "problem": "25个朋友在讨论一个很大的正整数。第一个朋友说：\"它能被1整除。\"第二个朋友说：\"它能被2整除。\"第三个朋友说：\"还能被3整除。\"第四个朋友补充道：\"还能被4整除。\"这样一直继续下去，直到每个人都发表了这样的评论。如果恰好有两个朋友说错了，而且这两个朋友说的是连续的数字，那么他们讨论的最小可能整数是多少？", "solution": "787386600", "english_has_been_cleaned": false}
+{"original_idx": 21882, "problem": "最小的 $n$ 是多少，使得存在一个凸 $n$ 边形，其所有角的正弦值相等且所有边的长度都不同？", "solution": "5", "english_has_been_cleaned": false}
+{"original_idx": 22023, "problem": "求形如 $S_{a,b} = \\{n^{2}+an+b | n \\in \\mathbb{Z}\\}$，$a, b \\in \\mathbb{Z}$ 的两两不交集合的最大个数。", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 22030, "problem": "设 $n = 2188 = 3^7+1$，并设 $A_0^{(0)}, A_1^{(0)}, ..., A_{n-1}^{(0)}$ 为以 $O$ 为中心的正 $n$ 边形的顶点（按此顺序排列）。对于 $i = 1, 2, \\dots, 7$ 和 $j=0,1,\\dots,n-1$，设 $A_j^{(i)}$ 表示三角形 \\[ \\triangle A_j^{(i-1)} A_{j+3^{7-i}}^{(i-1)} A_{j+2 \\cdot 3^{7-i}}^{(i-1)} \\] 的重心。这里下标按模 $n$ 计算。如果 \\[ \\frac{|OA_{2014}^{(7)}|}{|OA_{2014}^{(0)}|} = \\frac{p}{q} \\] 其中 $p$ 和 $q$ 是互质的正整数，求 $p+q$。", "solution": "2188", "english_has_been_cleaned": true}
+{"original_idx": 22684, "problem": "求所有满足以下条件的正有理数的和：小于10，且化简为最简分数时分母为30。", "solution": "400", "english_has_been_cleaned": false}
+{"original_idx": 23332, "problem": "如果 $\\left(\\log_3 x\\right)\\left(\\log_x 2x\\right)\\left( \\log_{2x} y\\right)=\\log_{x}x^2$，那么 $y$ 等于：", "solution": "9", "english_has_been_cleaned": false}
+{"original_idx": 23581, "problem": "直线 $\\ell_2$ 与直线 $\\ell_1$ 相交，直线 $\\ell_3$ 与 $\\ell_1$ 平行。这三条直线互不相同且位于同一平面内。到这三条直线等距离的点的个数是：", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 24475, "problem": "所有使$m^{2}+m+7$为完全平方数的整数$m$的乘积是$\\qquad$", "solution": "84", "english_has_been_cleaned": false}
+{"original_idx": 25767, "problem": "如果从 2, 5, 8, $\\cdots$, 101 这 34 个数中选择 $k$ 个数，使得其中至少两个数的和为 43，那么 $k$ 的最小值为：______", "solution": "28", "english_has_been_cleaned": true}
+{"original_idx": 26603, "problem": "求所有整数对 $(x, y)$ 使得 $y^{3}-1=x^{4}+x^{2}$。", "solution": "(0,1)", "english_has_been_cleaned": false}
+{"original_idx": 27039, "problem": "已知$p$是大于3的质数，求$$\\prod_{k=1}^{p-1}\\left(1+2 \\cos \\frac{2 k \\pi}{p}\\right)$$的值。", "solution": "1", "english_has_been_cleaned": true}
+{"original_idx": 27094, "problem": "从 $1^{\\circ}, 2^{\\circ}, \\cdots, 179^{\\circ}$ 中选择三个不同的角作为三角形的三个内角,共有 $\\qquad$ 种不同的方法。", "solution": "2611", "english_has_been_cleaned": false}
+{"original_idx": 27302, "problem": "找到最小的正整数$n$使得：如果正$n$边形的每个顶点都任意涂上红色、黄色或蓝色三种颜色中的一种，那么必定存在四个同色的顶点构成等腰梯形的顶点（有一对平行边且另外两边相等但不平行的凸四边形称为等腰梯形）。", "solution": "17", "english_has_been_cleaned": true}
+{"original_idx": 27610, "problem": "已知函数f(x) = x² + 2(a - 1)x + 2，求a的值，使得该函数在区间(-∞, 4]上单调递减。答案用整数表示。", "solution": "-3", "english_has_been_cleaned": false}
+{"original_idx": 27742, "problem": "求由方程 xy=1、y=x 和 x=3 围成的封闭区域的面积。将你的答案表示为包含自然对数和数值的数学表达式。", "solution": "4-\\ln3", "english_has_been_cleaned": false}
+{"original_idx": 27985, "problem": "在抛物线$y^2 = 2px$上，横坐标为4的点到焦点的距离为5。求$p$的值。将答案表示为一个数。", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 28288, "problem": "一名射手命中10环、9环和8环的概率分别为0.24、0.28和0.19。计算该射手在单次射击中得分至多为8分的概率。请将答案表示为0到1之间的小数值。", "solution": "0.48", "english_has_been_cleaned": false}
+{"original_idx": 28302, "problem": "在正项等比数列 {a_n} 中，已知 a_1a_5 + 2a_3a_5 + a_3a_7 = 25，求 a_3 + a_5 的值。答案用整数表示。", "solution": "5", "english_has_been_cleaned": false}
+{"original_idx": 28337, "problem": "在等差数列{a_n}中，a_2 = 2，且a_4 + a_5 = 12。求a_7的值，答案表示为一个整数。", "solution": "10", "english_has_been_cleaned": false}
+{"original_idx": 29166, "problem": "设 $a$、$b$ 和 $c$ 是非零实数，且 $a+b+c=0$。计算表达式 $\frac{a}{|a|}+\frac{b}{|b|}+\frac{c}{|c|}+\frac{abc}{|abc|}$ 的值。将答案表示为一个数值。", "solution": "0", "english_has_been_cleaned": false}
+{"original_idx": 29347, "problem": "在等比数列{a_n}中，a_6 * a_10 = 16，且a_4 = 1，求a_12的值。", "solution": "16", "english_has_been_cleaned": false}
+{"original_idx": 29539, "problem": "在极坐标系中，计算点A (1, π)到直线ρcosθ = 2的距离。用单个数值表示你的答案。", "solution": "3", "english_has_been_cleaned": false}
+{"original_idx": 29667, "problem": "若 $\\left (a+\\frac{1}{a} \\right )^2=3$，求 $a^3+\\frac{1}{a^3}$ 的值。答案用一个数字表示。", "solution": "0", "english_has_been_cleaned": false}
+{"original_idx": 29775, "problem": "给定数列 u_n = n^3 + n，定义 Δ^k(u_n) 为该数列的k阶差分。求最小的k值，使得对所有n都有 Δ^k(u_n) = 0。将答案表示为单个整数。", "solution": "4", "english_has_been_cleaned": true}
+{"original_idx": 29989, "problem": "在空间中，如果两个正四面体的棱长比为1:2，那么它们的体积比是多少？请用比值形式表示答案，用冒号（:）分隔数值。", "solution": "1:8", "english_has_been_cleaned": false}
+{"original_idx": 30040, "problem": "已知一个正数的平方根可以表示为 $a+3$ 和 $2a-15$，且这两个表达式互为相反数，求解 $a$，然后求结果的平方以确定这个正数。将答案表示为一个整数。", "solution": "49", "english_has_been_cleaned": false}
+{"original_idx": 30077, "problem": "已知一个等差数列的前三项之和为94，后三项之和为116，所有项之和为280，求该数列的项数n。请用整数表示答案。", "solution": "8", "english_has_been_cleaned": false}
+{"original_idx": 30275, "problem": "计算将4名志愿者分配到3所不同学校进行课外活动内容调研的方案数，要求每所学校至少分配一名志愿者。答案用单个整数表示。", "solution": "36", "english_has_been_cleaned": false}
+{"original_idx": 30880, "problem": "在直角坐标系中，函数y = x的图像绕原点逆时针旋转90度，然后向上平移1个单位。求所得直线方程，要求写成y = mx + b的形式，其中m是斜率，b是y轴截距。", "solution": "y = -x + 1", "english_has_been_cleaned": false}
+{"original_idx": 31059, "problem": "在一个各项均为正数的等比数列中，如果$a_{2}a_{10} = 9$，求$a_{5} + a_{7}$的最小值。答案用一个数字表示。", "solution": "6", "english_has_been_cleaned": false}
+{"original_idx": 31080, "problem": "设 $x=\\frac{\\sqrt{6+2\\sqrt5}+\\sqrt{6-2\\sqrt5}}{\\sqrt{20}}$。计算 $H=(1+x^5-x^7)^{{2012}^{3^{11}}}$ 的值。将你的答案表示为一个整数。", "solution": "1", "english_has_been_cleaned": false}
+{"original_idx": 31132, "problem": "已知集合 A = {0, a, 1} 和集合 B = {x | 0 < x ≤ 1}，如果 A∩B 中有两个元素，求实数 a 的取值范围。用标准区间记号表示答案。", "solution": "(0, 1)", "english_has_been_cleaned": false}
+{"original_idx": 31160, "problem": "从8名学生中选择4名学生参加接力赛，其中包括6名男生和2名女生，按性别进行分层抽样。如果女生不能作为最后一棒，求不同安排方式的数量。请用一个数值表示答案。", "solution": "720", "english_has_been_cleaned": false}
+{"original_idx": 31565, "problem": "给定两点A(a,0)和B(-a,0)，其中a > 0，以及圆的方程x^{2}+y^{2}-4\\sqrt{3}x-4y+7=0，求正实数a的取值范围，使得圆上存在点P满足∠APB = 90°。将答案表示为区间。", "solution": "[1,7]", "english_has_been_cleaned": false}
+{"original_idx": 31639, "problem": "在计算机科学中，十六进制是一种以16为基数的数制，使用数字0-9和字母A-F，总共16个符号。这些符号与十进制数的对应关系如下：十六进制：0 1 2 3 4 5 6 7 8 9 A B C D E F，十进制：0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15。计算A×B的十六进制结果。用标准十六进制记法（0-9，A-F）表示你的答案。", "solution": "6E", "english_has_been_cleaned": false}
+{"original_idx": 31830, "problem": "5名学生在3个体育项目中争夺冠军（每名学生可以参加任意数量的项目，每个项目只有一个冠军）。计算冠军的所有不同可能结果的总数。将答案表示为一个整数。", "solution": "125", "english_has_been_cleaned": false}
+{"original_idx": 31894, "problem": "已知函数 f(x) = (x^2 - 3x + 4) / (x - 3)，且约束条件为 x < 3，求 f(x) 的最大值。用一个数字表示你的答案。", "solution": "-1", "english_has_been_cleaned": false}
+{"original_idx": 31961, "problem": "数列{a_n}是一个项数为偶数的等差数列。其奇数项的和为24，偶数项的和为30。如果末项比首项大21/2，求该数列的项数。请用整数表示答案。", "solution": "8", "english_has_been_cleaned": false}
+{"original_idx": 32059, "problem": "在三角形ABC中，a、b、c分别是角A、B、C的对边。如果a、b、c成等差数列，且B = 60度，三角形ABC的面积为3*sqrt(3)，求b的确切值。", "solution": "2\\sqrt{3}", "english_has_been_cleaned": false}
+{"original_idx": 32079, "problem": "设等差数列$\\{a_n\\}$的前$n$项和为$S_n$，且$S_{m-1}=-2$，$S_m=0$，$S_{m+1}=3$。求$m$的值，答案用整数表示。", "solution": "5", "english_has_been_cleaned": false}
+{"original_idx": 32170, "problem": "已知等差数列$\\{a_n\\}$，设前$n$项和为$S_n$。如果$S_{m-1} = -2$，$S_m = 0$，$S_{m+1} = 3$，求$m$的值。答案用一个整数表示。", "solution": "5", "english_has_been_cleaned": false}
+{"original_idx": 32216, "problem": "不等边三角形ABC有两条高的长度分别为4和12。如果第三条高的长度也是整数，那么它的最大可能长度是多少？请用一个整数表示你的答案。", "solution": "5", "english_has_been_cleaned": false}
+{"original_idx": 32525, "problem": "计算一百万秒（$10^6$ 秒）相当于多少天。以天为单位表示你的答案，四舍五入到最近的整数。", "solution": "12", "english_has_been_cleaned": false}
+{"original_idx": 33014, "problem": "已知三角形的三边长分别为 $3\\sqrt{2}$，$6$ 和 $3\\sqrt{10}$，求其最大内角的度数。答案用整数度数表示。", "solution": "135", "english_has_been_cleaned": false}
+{"original_idx": 33076, "problem": "计算表达式 $(5-5i) + (-2-i) - (3+4i)$ 的结果。将你的答案表示为 $a + bi$ 形式的复数。", "solution": "-10i", "english_has_been_cleaned": false}
+{"original_idx": 33512, "problem": "已知动圆Q经过定点A(2,0)，与y轴相交得到弦MN，弦长为4，求动圆圆心Q的轨迹C的方程。请用标准的曲线方程形式表示你的答案，使用标准变量（如x, y）和必要的数学符号。", "solution": "y^2 = 4x", "english_has_been_cleaned": false}
+{"original_idx": 33551, "problem": "在正五角柱中，连接两个顶点的线段称为对角线，当且仅当这两个顶点既不在同一个侧面上，也不在同一个底面上。求正五角柱中对角线的总数。请用数值表示你的答案。", "solution": "10", "english_has_been_cleaned": false}
+{"original_idx": 33577, "problem": "某社区计划投资500元购买A、B、C三种类型的书籍。A类书籍每本30元，B类书籍每本25元，C类书籍每本20元。社区需购买A类书籍的数量范围为5至6本，并且三种类型的书籍都必须购买。计算满足这些条件的购买方案总数。", "solution": "6", "english_has_been_cleaned": false}
+{"original_idx": 33582, "problem": "设 $P$ 是等边三角形 $\\triangle ABC$ 所在平面内的一点，满足 $\\overrightarrow {CP}= \\overrightarrow {CB}+2 \\overrightarrow {CA}$。若 $AB=1$，求 $\\overrightarrow {PA}\\cdot \\overrightarrow {PB}$ 的值。请用一个数字表示你的答案。", "solution": "3", "english_has_been_cleaned": false}
+{"original_idx": 33739, "problem": "已知 $a > b$ 且 $ab = 1$，求 $$\\frac{a^{2}+b^{2}}{a-b}$$ 的最小值。将答案表示为一个数值。", "solution": "2\\sqrt{2}", "english_has_been_cleaned": false}
+{"original_idx": 33865, "problem": "已知函数 $f(x)$，其定义域为 $\\mathbb{R}$。当 $x < 0$ 时，$f(x) = x^5 - 1$；当 $-1 \\leq x \\leq 1$ 时，$f(-x) = -f(x)$；当 $x > 0$ 时，$f(x+1) = f(x)$。计算 $f(2016)$。请将答案表示为一个整数。", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 34401, "problem": "求$(x+y)^2(x-2y)^4$的展开式中$x^2y^4$的系数。将答案表示为一个整数。", "solution": "-24", "english_has_been_cleaned": false}
+{"original_idx": 34521, "problem": "已知 $ab=-3$，计算 $a\\sqrt{-\\frac{b}{a}}+b\\sqrt{-\\frac{a}{b}}$ 的值。将答案表示为一个数。", "solution": "0", "english_has_been_cleaned": false}
+{"original_idx": 34672, "problem": "已知某立体的三视图都是边长为2的正方形，如果将这个立体雕刻成一个球体，那么这个球体的最大表面积是多少？请用π的倍数表示答案。", "solution": "4\\pi", "english_has_been_cleaned": false}
+{"original_idx": 34881, "problem": "给定数列 a_n = (n - sqrt(98)) / (n - sqrt(99))，其中 n ∈ N_+，求该数列前20项中最大项和最小项的位置。请用项数位置对的形式表示答案（例如，(10, 9)）。", "solution": "(10, 9)", "english_has_been_cleaned": false}
+{"original_idx": 35028, "problem": "在三角形ABC中，点F将AC分成1:2的比例。设E是边BC与AG的交点，其中G是BF的中点。求E将边BC分成的比例。请用a:b的形式表示答案。", "solution": "1:3", "english_has_been_cleaned": false}
+{"original_idx": 35449, "problem": "给定多项式方程 x^3 + (a^2 + 1)x + 2a^2 + 10 = 0，确定集合 M 的非空子集的个数，其中 M 定义为该多项式方程实根的绝对值组成的集合。请用整数表示你的答案。", "solution": "1", "english_has_been_cleaned": false}
+{"original_idx": 35596, "problem": "一名铁人三项运动员参加铁人三项比赛，其中游泳、骑自行车和跑步三个项目的距离都相等。该运动员游泳速度为每小时3千米，骑自行车速度为每小时20千米，跑步速度为每小时10千米。计算该运动员在整个比赛中的平均速度，以千米每小时为单位。答案用整数表示。", "solution": "6", "english_has_been_cleaned": false}
+{"original_idx": 35633, "problem": "给定函数 y = 1/2 * (x^2 - 100x + 196 + |x^2 - 100x + 196|)，求当变量 x 取 100 个自然数 1, 2, 3,..., 100 时函数值的和。请用一个整数表示你的答案。", "solution": "390", "english_has_been_cleaned": false}
+{"original_idx": 35676, "problem": "已知分式方程 $\\frac{x}{x-2}-2=\\frac{m}{x-2}$，求当该方程有根时 $m$ 的值。用一个整数表示你的答案。", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 35795, "problem": "已知 $\\sqrt[3]{0.5} \\approx 0.7937$ 和 $\\sqrt[3]{5} \\approx 1.7100$，计算 $\\sqrt[3]{500}$ 的值。将答案表示为四舍五入到四位小数的十进制近似值。", "solution": "7.937", "english_has_been_cleaned": false}
+{"original_idx": 36627, "problem": "已知方程 \\( x^{2} + x - 1 = x e^{x^{2} - 1} + (x^{2} - 1) e^{x} \\)，求所有根的平方和，答案用一个数表示。", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 36860, "problem": "给定数列$\\left\\{a_{n}\\right\\}$，定义为$a_{n}=(\\sqrt{2}+1)^{n}-(\\sqrt{2}-1)^{n}(n \\in \\mathbb{N})$，求$\\left[a_{2017}\\right]$的个位数字。答案用0到9之间的一个数字表示。", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 36956, "problem": "一只昆虫生活在边长为1的正四面体表面上。它想要沿着四面体表面从某条边的中点移动到相对边的中点。这种行程的最短距离是多少？请用一个数字表示答案。", "solution": "1", "english_has_been_cleaned": false}
+{"original_idx": 37004, "problem": "给定一个顶点为R、S、T的等边三角形,其三边的中点分别为X、Y、Z,从这六个点中任选三个点作为顶点能构成多少个不全等的三角形?请给出整数答案。", "solution": "4", "english_has_been_cleaned": false}
+{"original_idx": 37805, "problem": "求最大常数 $k$，使得对于所有正实数 $a, b, c$，不等式 $\\frac{k a b c}{a+b+c} \\leqslant(a+b)^{2}+(a+b+4 c)^{2}$ 成立。", "solution": "100", "english_has_been_cleaned": true}
+{"original_idx": 38968, "problem": "已知一个三面角的各面角之和为 $180^{\\circ}$。求这个三面角各二面角的余弦之和。", "solution": "1", "english_has_been_cleaned": true}
+{"original_idx": 39213, "problem": "对于 $x, y, z \\in(0,1]$，求表达式\n\n$$\nA=\\frac{\\sqrt{8 x^{4}+y}+\\sqrt{8 y^{4}+z}+\\sqrt{8 z^{4}+x}-3}{x+y+z}\n$$\n\n的最大值。", "solution": "2", "english_has_been_cleaned": false}
+{"original_idx": 39269, "problem": "设 $S=\\{1,2,3,4, \\ldots, 16\\}$。在下列 $S$ 的子集中，\n$$\n\\{6\\},\\{1,2,3\\},\\{5,7,9,10,11,12\\},\\{1,2,3,4,5,6,7,8,9\\}\n$$\n每个子集中所有元素的和都是3的倍数。求 $S$ 的非空子集 $A$ 的总数，使得 $A$ 中所有元素的和是3的倍数。", "solution": "21855", "english_has_been_cleaned": false}
+{"original_idx": 39634, "problem": "数字81具有这样的性质：它能被其各位数字之和$8+1=9$整除。有多少个两位数满足这个性质？", "solution": "23", "english_has_been_cleaned": false}
+{"original_idx": 40341, "problem": "学院的创意竞赛包含四个测试。总共有70名申请者。第一个测试有35人成功通过，第二个有48人通过，第三个有64人通过，第四个有63人通过，并且没有人四个测试全部失败。那些同时通过第三和第四个测试的人被学院录取。有多少人被录取？", "solution": "57", "english_has_been_cleaned": false}
+{"original_idx": 41616, "problem": "小梅想要给一本笔记本的页面编号。为此，她有大量带有数字$0,1,3,4,5,6,7,8$和9的贴纸，但她只有100张带有数字2的贴纸。请确定小梅最多可以给这本笔记本编号到第几页。", "solution": "244", "english_has_been_cleaned": false}
+{"original_idx": 41904, "problem": "在坐标平面上，考虑所有顶点都有自然数坐标且中心位于点 $(55 ; 40)$ 的正方形。求这样的正方形的个数。", "solution": "1560", "english_has_been_cleaned": false}
+{"original_idx": 42719, "problem": "$A$和$B$都是四位回文数，$C$是三位回文数，且$A-B=C$。\n求$C$的所有可能值。\n[回文数是指正读和反读都相同的整数。]", "solution": "121", "english_has_been_cleaned": false}
+{"original_idx": 43461, "problem": "在培育精英马种的兰迪亚国，每年都会举办一个测试马匹速度的节日，只有一岁、二岁、三岁和四岁的马匹可以参加。对于每匹达到速度标准的马，节日组织者会向培育该马的种马场支付固定金额：一岁马1兰迪克，二岁马2兰迪克，三岁马3兰迪克，四岁马4兰迪克。每个参加节日的种马场每年都要送出四匹新马（任意年龄组合）进行测试，这些马此前从未参加过测试，同时还要送出所有此前在更小年龄时参加过测试并达到标准的马匹（不超过四岁）。一个种马场在参加节日的前六年中最多能赚取多少钱？", "solution": "200", "english_has_been_cleaned": true}
+{"original_idx": 43746, "problem": "在城市市场上，$3 \\mathrm{~kg}$ 苹果的价格等于 $2 \\mathrm{~kg}$ 梨的价格，而 $2 \\mathrm{~kg}$ 梨的价格等于 $1 \\mathrm{~kg}$ 樱桃的价格。小明买了 $5 \\mathrm{~kg}$ 苹果，小华买了 $3 \\mathrm{~kg}$ 樱桃，小刚买了 $3 \\mathrm{~kg}$ 梨。谁花的钱最多？请解释你的答案。", "solution": "小华", "english_has_been_cleaned": true}
+{"original_idx": 45309, "problem": "函数 $y+1=\\left|\\log_{1/2}|x|\\right|$ 的图像与 $x$ 轴相交多少次？", "solution": "4", "english_has_been_cleaned": true}
+{"original_idx": 45652, "problem": "在60以内，有四个不同的素数按升序排列构成等差数列（相邻数之间的差相等），共有$\\qquad$种可能的情况。", "solution": "7", "english_has_been_cleaned": false}
+{"original_idx": 46710, "problem": "求以 (5, 8, 10)、(10, 10, 17)、(4, 45, 46)、(2, 5, 4) 为顶点的四面体的体积。", "solution": "0", "english_has_been_cleaned": false}
+{"original_idx": 46975, "problem": "假设函数 $f(x) - f(2x)$ 在 $x = 1$ 处的导数为 5，在 $x = 2$ 处的导数为 7。求 $f(x) - f(4x)$ 在 $x = 1$ 处的导数。", "solution": "19", "english_has_been_cleaned": false}
+{"original_idx": 47362, "problem": "有多少个实数 x 是以下方程的解？\n\n$2003^x + 2004^x = 2005^x$", "solution": "1", "english_has_been_cleaned": false}
+{"original_idx": 47469, "problem": "一只蚂蚁在边长为1的二十面体的棱上行走。如果蚂蚁不能重复经过同一条棱，但可以重复访问顶点,求它能走的最长路径的长度。", "solution": "25", "english_has_been_cleaned": false}
+{"original_idx": 47508, "problem": "如果一个数的各位数字按顺序构成等差数列，则称该数为等差数列数。计算所有四位正整数中有多少个等差数列数。", "solution": "30", "english_has_been_cleaned": false}
+{"original_idx": 47524, "problem": "如果 $f$ 是一个首一三次多项式，满足 $f(0) = −64$，且 $f$ 的所有根都是非负实数，那么 $f(-1)$ 的最大可能值是多少？（如果一个多项式的首项系数为1，则称其为首一多项式。）", "solution": "-125", "english_has_been_cleaned": false}
+{"original_idx": 47540, "problem": "对于正整数 $a$，设 $f(a)$ 为所有使得 $x^2 + ax + b$ 有整数解的正整数 $b$ 的平均值。求使得 $f(a) = a$ 的唯一 $a$ 值。", "solution": "5", "english_has_been_cleaned": false}
+{"original_idx": 47732, "problem": "哈佛大学最近为学生建造了一座新宿舍楼，共有 $n$ 层，其中从顶部数第 $k$ 层可以建模为一个高 1 米、半径为 $k$ 米的圆柱体。已知该建筑所有侧面（即外部竖直墙面）的面积是建筑总表面积（包括底面）的 35%，求 $n$。", "solution": "13", "english_has_been_cleaned": false}
+{"original_idx": 48190, "problem": "设 $a, b, c, d$ 是实数，满足\n\n$|a - b| + |c - d| = 99$；\n$|a - c| + |b - d| = 1$。\n\n求 $|a – d| + |b − c|$ 的所有可能值。", "solution": "99", "english_has_been_cleaned": false}
+{"original_idx": 48548, "problem": "求方程\n\n$x^6 + ax^5 + 60x^4 – 159x^3 + 240x^2 + bx + c = 0$\n\n的不同实数解个数的最大值，其中 a，b 和 c 是实数。", "solution": "4", "english_has_been_cleaned": true}
+{"original_idx": 48606, "problem": "考虑一个 $4 \\times 4$ 的方格网，每个方格最初都是红色的。每一分钟，Piet 可以跳到其中一个方格上，使该方格以及所有相邻的方格（两个方格相邻是指它们共享一条边）变成蓝色。Piet 至少需要多少分钟才能使整个网格都变成蓝色？", "solution": "4", "english_has_been_cleaned": false}
+{"original_idx": 48659, "problem": "求边长为15、16、17的三角形的内切圆半径。", "solution": "\\sqrt{21}", "english_has_been_cleaned": false}
+{"original_idx": 48690, "problem": "有多少对正整数$(a, b)$满足$a \\leq b$且$\\frac{1}{a} + \\frac{1}{b} = \\frac{1}{6}$？", "solution": "5", "english_has_been_cleaned": false}
+{"original_idx": 48723, "problem": "方程 $x^{4}=x^{2} y^{2}$ 的图像是 $n$ 条不同直线的并集。$n$ 的值是多少？", "solution": "3", "english_has_been_cleaned": false}
