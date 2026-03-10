@@ -10,10 +10,55 @@ We release this dataset to facilitate multilingual RLVR research in the research
 
 - **Crosslingually Parallel**: the `train` and `test` splits contain samples available across all languages
 - **Data Cleaning**: English source samples processed to remove artifacts before translation
-- **Translation Method**: LLM-based translation (Claude Sonnet-4) with human validation of test set in 11 languages
+- **Translation Method**: LLM-based translation (Claude Sonnet 4) with human validation of test set in 11 languages
 - **Languages**:
   - _with human review_: Chinese, Spanish, German, French, Russian, Brazilian Portuguese, Italian, Japanese, Korean, Thai + English (original)
   - _additionally provided without human review_: Swahili, Telugu, Bengali
+
+## Usage
+
+**Requirements:**
+
+```bash
+pip install datasets bsdiff4
+```
+
+**Loading the Dataset:**
+
+We provide binary patches that can be applied to the original [AceReason-Math](https://huggingface.co/datasets/nvidia/AceReason-Math) dataset to reconstruct our cleaned English version. The following snippet loads the dataset directly from GitHub and applies these modifications:
+
+```python
+from datasets import load_dataset
+import base64
+import bsdiff4
+
+# Build file paths for loading mAceReason-Math from GitHub
+base = "https://raw.githubusercontent.com/apple/ml-macereason-math/main"
+splits = ("train", "test", "train_all", "asy")
+langs = ("bn", "de", "es", "fr", "it", "ja", "ko", "pt", "ru", "sw", "te", "th", "zh", "en_modifications")
+macereason_data = {
+    lang: {split: f"{base}/{lang}/{split}.jsonl" for split in splits}
+    for lang in langs
+}
+
+# Load any language via `load_dataset`
+macereason_de = load_dataset("json", data_files=macereason_data["de"])
+macereason_en_mods = load_dataset("json", data_files=macereason_data["en_modifications"])
+
+# Reconstruct cleaned English data from modifications
+# (requires the original AceReason-Math dataset)
+def reconstruct(mod):
+    orig = acereason_original[mod["original_idx"]]
+    problem = orig["problem"] if not mod["english_problem_modification"] else bsdiff4.patch(orig["problem"].encode(), base64.b64decode(mod["english_problem_modification"])).decode()
+    solution = orig["answer"] if not mod["english_solution_modification"] else bsdiff4.patch(orig["answer"].encode(), base64.b64decode(mod["english_solution_modification"])).decode()
+    return {"original_idx": mod["original_idx"], "problem": problem, "solution": solution, "english_has_been_cleaned": mod["english_has_been_cleaned"]}
+
+acereason_original = load_dataset("nvidia/AceReason-Math", split="train", revision="a5cc41c5ecfc1d4a6571f98ade92d7fec100b2a8")
+macereason_en = macereason_en_mods.map(reconstruct, remove_columns=["english_problem_modification", "english_solution_modification"])
+
+print(macereason_en["train"], macereason_en["train_all"], macereason_en["test"], macereason_en["asy"])
+print(macereason_de["train"], macereason_de["train_all"], macereason_de["test"], macereason_de["asy"])
+```
 
 ## Dataset Structure
 
@@ -86,65 +131,19 @@ The `test` split is randomly sampled and consistent across all languages. The `t
 
 English data can be reconstructed from the original [AceReason-Math](https://huggingface.co/datasets/nvidia/AceReason-Math) dataset using the `en_modifications` config. See [Usage](#usage).
 
-
 ## Dataset Creation
 
 ### Source Data
 
-The source data comes from [AceReason-Math](https://huggingface.co/datasets/nvidia/AceReason-Math), a mathematical reasoning dataset curated for RLVR training. We first filter the original English data by removing problematic samples, such as problems which already reveal the solution in the problem statement or which contain critical references to diagrams or figures, which are not provided. This affects roughly 3% of the original data. We also clean samples with minor issues such as task number annotations ("Problem 4.1: [...]"), in ~[TODO]% of samples. This filtering and cleaning process is conducted using Claude Sonnet-4.
+The source data comes from [AceReason-Math](https://huggingface.co/datasets/nvidia/AceReason-Math), a mathematical reasoning dataset curated for RLVR training. We first filter the original English data by removing problematic samples, such as problems which already reveal the solution in the problem statement or which contain critical references to diagrams or figures, which are not provided. This affects roughly 4% of the original data. We also clean samples with minor issues such as task number annotations ("Problem 4.1: [...]"), in ~11% of samples. This filtering and cleaning process is conducted using Claude Sonnet 4.
 
 ### Translation Process
 
-The translations are also conducted using Claude Sonnet-4. We initially translate 100 random samples and solicit feedback from our native speaker annotators. We then use this feedback to improve our prompts and run the translation pipeline for the entire dataset. We use an iterative approach where the translations are graded against predefined rubrics in a LLM-as-a-Judge rating round. If any issues are detected, we retranslate the sample with additional feedback. This process is repeated up to 5 times.
+The translations are also conducted using Claude Sonnet 4. We initially translate 100 random samples and solicit feedback from our native speaker annotators. We then use this feedback to improve our prompts and run the translation pipeline for the entire dataset. We use an iterative approach where the translations are graded against predefined rubrics in a LLM-as-a-Judge rating round. If any issues are detected, we retranslate the sample with additional feedback. This process is repeated up to 5 times.
 
 **Note:** In the translations, we localize number formats (e.g. US: `1,000,000.0` vs. German: `1.000.000,0`) in the problems and solutions. In simple cases, most symbolic verifiers (such as [`huggingface/math-verify`](https://github.com/huggingface/Math-Verify)) can handle this but might fail for more complex cases, which only support the US format. In those cases, you may want to use the English solution.
 
 For more details, please refer to our accompanying [paper](https://arxiv.org/todo).
-
-## Usage
-
-**Requirements:**
-
-```bash
-pip install datasets bsdiff4
-```
-
-**Loading the Dataset:**
-
-We provide binary patches that can be applied to the original [AceReason-Math](https://huggingface.co/datasets/nvidia/AceReason-Math) dataset to reconstruct our cleaned English version. The following snippet loads the dataset directly from GitHub and applies these modifications:
-
-```python
-from datasets import load_dataset
-import base64
-import bsdiff4
-
-# Build file paths for loading mAceReason-Math from GitHub
-base = "https://raw.githubusercontent.com/apple/ml-macereason-math/main"
-splits = ("train", "test", "train_all", "asy")
-langs = ("bn", "de", "es", "fr", "it", "ja", "ko", "pt", "ru", "sw", "te", "th", "zh", "en_modifications")
-macereason_data = {
-    lang: {split: f"{base}/{lang}/{split}.jsonl" for split in splits}
-    for lang in langs
-}
-
-# Load any language via `load_dataset`
-macereason_de = load_dataset("json", data_files=macereason_data["de"])
-macereason_en_mods = load_dataset("json", data_files=macereason_data["en_modifications"])
-
-# Reconstruct cleaned English data from modifications
-# (requires the original AceReason-Math dataset)
-def reconstruct(mod):
-    orig = acereason_original[mod["original_idx"]]
-    problem = orig["problem"] if not mod["english_problem_modification"] else bsdiff4.patch(orig["problem"].encode(), base64.b64decode(mod["english_problem_modification"])).decode()
-    solution = orig["answer"] if not mod["english_solution_modification"] else bsdiff4.patch(orig["answer"].encode(), base64.b64decode(mod["english_solution_modification"])).decode()
-    return {"original_idx": mod["original_idx"], "problem": problem, "solution": solution, "english_has_been_cleaned": mod["english_has_been_cleaned"]}
-
-acereason_original = load_dataset("nvidia/AceReason-Math", split="train", revision="a5cc41c5ecfc1d4a6571f98ade92d7fec100b2a8")
-macereason_en = macereason_en_mods.map(reconstruct, remove_columns=["english_problem_modification", "english_solution_modification"])
-
-print(macereason_en["train"], macereason_en["train_all"], macereason_en["test"], macereason_en["asy"])
-print(macereason_de["train"], macereason_de["train_all"], macereason_de["test"], macereason_de["asy"])
-```
 
 ## License/Terms of Use:
 
@@ -156,7 +155,7 @@ The mAceReason-Math Dataset is intended to be used by the community to for multi
 
 ## Release Date
 
-December 2025
+March 2026
 
 ## Correspondence to
 
