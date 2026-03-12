@@ -149,7 +149,7 @@ The translations are also conducted using Claude Sonnet 4. We initially translat
 
 **Note:** In the translations, we localize number formats (e.g. US: `1,000,000.0` vs. German: `1.000.000,0`) in the problems and solutions. In simple cases, most symbolic verifiers (such as [`huggingface/math-verify`](https://github.com/huggingface/Math-Verify)) can handle this but might fail for more complex cases, which only support the US format. In those cases, you may want to use the English solution.
 
-For more details, please refer to our accompanying [paper](https://arxiv.org/todo).
+For more details, please refer to our accompanying [paper](https://arxiv.org/abs/2603.10767).
 
 ## License/Terms of Use
 
@@ -170,10 +170,14 @@ Konstantin Dobler (konstantin.dobler@hpi.de) and Simon Lehnerer (simon.lehnerer@
 ## Citation
 
 ```bibtex
-@dataset{mAceReasonMath,
-  title={mAceReason-Math: A Dataset of High-quality Multilingual Math Problems Ready for RLVR},
-  author={Konstantin Dobler and Simon Lehnerer and Federico Scozzafava and Jonathan Janke and Mohamed Ali},
-  year={2026},
+@misc{dobler2026macereasonmathdatasethighqualitymultilingual,
+      title={mAceReason-Math: A Dataset of High-Quality Multilingual Math Problems Ready For RLVR}, 
+      author={Konstantin Dobler and Simon Lehnerer and Federico Scozzafava and Jonathan Janke and Mohamed Ali},
+      year={2026},
+      eprint={2603.10767},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.10767}, 
 }
 ```
 
